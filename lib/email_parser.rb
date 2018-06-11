@@ -14,7 +14,7 @@ class EmailParser
   end 
   
   def parse
-    p email = emails.split(",")
+    email_address.split(',')
   end 
   
   
