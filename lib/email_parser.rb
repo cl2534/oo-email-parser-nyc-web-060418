@@ -10,7 +10,7 @@ class EmailParser
   
   def initialize(email_address)
     @email_address = email_address 
-    @@emails << self
+
   end 
   
   def parse(emails)
